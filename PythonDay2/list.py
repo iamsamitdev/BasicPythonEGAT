@@ -19,13 +19,7 @@ names[0] = "Bob"
 print(names[0])
 
 # การสร้าง List แบบว่าง
-numbers2 = []
-
-# เพิ่มสมาชิกใน List ว่าง
-numbers2.append(5)
-numbers2.append(10)
-numbers2.append(15)
-numbers2.append(20)
+numbers2 = [5, 10, 15, 20]
 
 print(numbers2)
 print(numbers2[3])

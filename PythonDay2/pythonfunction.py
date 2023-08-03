@@ -18,8 +18,7 @@ info("ITGenius")
 
 # การสร้างฟังก์ชันใน Python
 def area(width, height):
-    result = width * height
-    return result
+    return width * height
 
 
 # การเรียกใช้งานฟังก์ชัน area
@@ -48,9 +47,9 @@ print(berdee(phone))
 
 
 def show_info(name = "", salary = 84360, lang = "Python"):
-    print('Name: %s' % name)
+    print(f'Name: {name}')
     print('Salary: %d' % salary)
-    print('Language: %s' % lang)
+    print(f'Language: {lang}')
     print()
 
 

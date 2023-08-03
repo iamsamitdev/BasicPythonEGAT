@@ -1,6 +1,6 @@
 a = (1, 2, 3, 4)
 b = 1, 2, 3, 4
-c = tuple(['C++', 'C#', 'Java', 'Pyhton'])
+c = 'C++', 'C#', 'Java', 'Pyhton'
 d = tuple(range(1, 10, 2))
 e = ('a', )
 f = ()
